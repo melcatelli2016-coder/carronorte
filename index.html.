@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script type="module"
+src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js">
+</script>
+
+<style>
+body {
+  margin: 0;
+  background: #f4ead7;
+  font-family: Arial, sans-serif;
+  color: #315a45;
+  text-align: center;
+}
+h2 { padding-top: 20px; }
+
+model-viewer {
+  width: 100%;
+  height: 600px;
+  background: #f4ead7;
+}
+</style>
+</head>
+
+<body>
+
+<h2>Explore o carrinho em 360°</h2>
+<p>Arraste para girar e descobrir todos os detalhes.</p>
+
+<model-viewer
+src="https://github.com/melcatelli2016-coder/carronorte/releases/download/v1.0/Meshy_AI_Tropical_Trailblazer_1113005618_texture.glb"
+camera-controls
+auto-rotate
+rotation-per-second="15deg"
+shadow-intensity="1"
+exposure="1"
+environment-image="neutral">
+</model-viewer>
+
+</body>
+</html>
+ 
